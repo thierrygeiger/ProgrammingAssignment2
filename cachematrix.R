@@ -43,6 +43,8 @@ cacheSolve <- function(x, ...) {
 ## Calls to both functions for testing purposes
 # amatrix = makeCacheMatrix(matrix(c(1,2,3,4), nrow=2, ncol=2))
 # cacheSolve(amatrix) 
+## Test that the matrix product of the matrix and its invert is the unit matrix
+# cacheSolve(amatrix)%*%amatrix$get() 
 
 
 
